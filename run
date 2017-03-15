@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 input="$(readlink -f "$1")"
-root="$(dirname "$BASH_SOURCE")"
+root="$(dirname "$(readlink -f "$BASH_SOURCE")")"
 cd "$root"
+pwd
 
 node ./node_modules/babel-cli/bin/babel-node.js \
   --presets node6 \
