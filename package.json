@@ -1,0 +1,16 @@
+{
+  "name": "support",
+  "version": "0.0.0",
+  "description": "Various support scripts",
+  "author": "",
+  "license": "MIT",
+  "repository": "",
+  "devDependencies": {
+    "babel": "^5.8.29",
+    "babel-cli": "^6.24.0",
+    "babel-core": "^5.8.29",
+    "babel-preset-node6": "^11.0.0"
+  },
+  "peerDependencies": {},
+  "dependencies": {}
+}
